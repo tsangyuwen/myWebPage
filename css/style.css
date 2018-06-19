@@ -449,4 +449,27 @@ footer{
   .container{
     width:auto;
   }
+
+  .menu-button{
+    float: right;
+    font-size: 25px;
+    line-height: 40px;
+    color: white;
+    background: transparent;
+    padding: 0 15px;
+    border: 0;
+  }
+
+   .menu-button-checkbox{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 55px;
+    height: 40px;
+    opacity: 0;
+  }
+
+  .menu-button-checkbox:checked ~ .nav{
+    display: block;
+  }
 }
